@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Album from './pages/Album';
+import Favorite from './pages/Favorite';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import NotFound from './pages/NotFound';
+import Profile from './pages/Profile';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <Switch>
+        <Route exact path="/" render={ (props) => (<Login { ...props } /> )} />
+        <Route exact path="/home"><Home /></Route>
+        <Route exact path="/favorite"><Favorite /></Route>
+        <Route exact path="/profile"><Profile /></Route>
+        <Route exact path="/album/:id" render={ (props) => (<Album { ...props } /> )} />
+        <Route exact path="*"><NotFound /></Route>
+      </Switch>
+    )
+  }
 }
-
-export default App;
