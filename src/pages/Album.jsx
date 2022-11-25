@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Loading from '../components/Loading';
+import Header from '../components/Header';
 import TracksCard from '../components/TracksCard';
 import getTracks from '../data/tracksAPI';
 
@@ -27,7 +27,10 @@ export default class Album extends Component {
     const { tracks_list, thumbnail, loading } = this.state;
     return (
       <>
-        {loading ? (<Loading />
+        <section>
+          <Header />
+        </section>
+        {loading ? (<></>
         ) : (
           <TracksCard 
             tracks_list={ tracks_list }

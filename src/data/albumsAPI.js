@@ -12,7 +12,6 @@ const getAlbums = async (artist) => {
   const promise = await fetch(`https://spotify23.p.rapidapi.com/search/?q=${artistName}&type=albums&offset=0&limit=10&numberOfTopResults=5`, options)
   const response = await promise.json();
   const { albums: { items } } = response;
-  console.log("🚀 ~ file: albumsAPI.js ~ line 17 ~ getAlbums ~ items", items)
   return items;
 }
 

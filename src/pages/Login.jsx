@@ -39,7 +39,7 @@ export default class Login extends Component {
           <Loading />
         ) : (
           <>
-            <h1>ownTunes</h1>
+            <h1>ThousandTunes</h1>
             <form
               className="login-container"
               onSubmit={this.enterToSubmit}

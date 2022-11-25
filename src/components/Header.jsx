@@ -26,14 +26,12 @@ export default class Header extends Component {
       <>
         {loading ? (<Loading />) : (
           <div>
-            <div>
-              <header>{`Welcome, ${user_name}!`}</header>
-            </div>
-            <div>
-              <Navbar />
-            </div>
+            <header>{`Welcome, ${user_name}!`}</header>
           </div>
         )}
+        <div>
+          <Navbar />
+        </div>
       </>
     );
   }
