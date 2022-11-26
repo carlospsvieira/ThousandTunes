@@ -37,20 +37,26 @@ export default class Home extends Component {
         <section>
           <Header />
         </section>
-        <form onSubmit={this.enterToSubmit}>
-          <input
-            type="text"
-            name="search"
-            value={search}
-            onChange={this.handleChange}
-          />
-          <button
-            type="submit"
-            onClick={this.enterToSubmit}
+        <div className="home-container">
+          <form
+            onSubmit={this.enterToSubmit}
+            className="form-home-container"
           >
-            search
-          </button>
-        </form>
+            <input
+              type="text"
+              name="search"
+              value={search}
+              onChange={this.handleChange}
+              placeholder="Band/Artist"
+            />
+            <button
+              type="submit"
+              onClick={this.enterToSubmit}
+            >
+              &#x1F50D;
+            </button>
+          </form>
+        </div>
         <main>
           {loading ? (
             <Loading />

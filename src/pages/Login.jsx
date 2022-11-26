@@ -39,32 +39,34 @@ export default class Login extends Component {
           <Loading />
         ) : (
           <>
-            <h1>ThousandTunes</h1>
-            <form
-              className="login-container"
-              onSubmit={this.enterToSubmit}
-            >
-              <input
-                type="text"
-                name="name"
-                value={name}
-                onChange={this.handleChange}
-                placeholder="New Username"
-              />
-              <input
-                type="email"
-                name="email"
-                value={email}
-                onChange={this.handleChange}
-                placeholder="Email"
-              />
-              <button
-                type="submit"
-                onClick={this.handleSubmit}
+            <span>ThousandTunes</span>
+            <div className="login-container">
+              <form
+                className="form-container"
+                onSubmit={this.enterToSubmit}
               >
-                Login
-              </button>
-            </form>
+                <input
+                  type="text"
+                  name="name"
+                  value={name}
+                  onChange={this.handleChange}
+                  placeholder="Username"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={this.handleChange}
+                  placeholder="Email"
+                />
+                <button
+                  type="submit"
+                  onClick={this.handleSubmit}
+                >
+                  Login
+                </button>
+              </form>
+            </div>
           </>
         )}
 
