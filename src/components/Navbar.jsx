@@ -6,13 +6,13 @@ export default class Navbar extends Component {
     return (
       <>
         <div className="main-navegation">
-          <Link to="/ThousandTunes/home">Home</Link>
-          <Link to="/ThousandTunes/favorite">Favorite</Link>
-          <Link to="/ThousandTunes/profile">Profile</Link>
+          <Link to="/home">Home</Link>
+          <Link to="/favorite">Favorite</Link>
+          <Link to="/profile">Profile</Link>
           <br />
         </div>
         <div className="signout">
-          <Link to="/ThousandTunes">Sign out</Link>
+          <Link to="/">Sign out</Link>
         </div>
       </>
     )
