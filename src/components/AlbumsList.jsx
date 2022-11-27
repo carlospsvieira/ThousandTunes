@@ -12,7 +12,7 @@ export default class AlbumsList extends Component {
           <div>
             <span>{ name }</span>
             <span>{ year }</span>
-            <Link to={`/album/${album_id}`}>Go to playlist</Link>
+            <Link to={`/ThousandTunes/album/${album_id}`}>Go to playlist</Link>
           </div>
         </div>
     )

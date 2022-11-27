@@ -23,7 +23,7 @@ export default class Login extends Component {
     this.setState({ loading: true })
     await createUser(info);
     this.setState({ name: '', email: '', loading: false, success: true })
-    history.push("./home");
+    history.push("/ThousandTunes/home");
   }
 
   enterToSubmit = (e) => {

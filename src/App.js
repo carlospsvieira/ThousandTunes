@@ -13,10 +13,10 @@ export default class App extends Component {
     return (
       <Switch>
         <Route exact path="/ThousandTunes" render={ (props) => (<Login { ...props } /> )} />
-        <Route exact path="/home"><Home /></Route>
-        <Route exact path="/favorite"><Favorite /></Route>
-        <Route exact path="/profile"><Profile /></Route>
-        <Route exact path="/album/:id" render={ (props) => (<Album { ...props } /> )} />
+        <Route exact path="/ThousandTunes/home"><Home /></Route>
+        <Route exact path="/ThousandTunes/favorite"><Favorite /></Route>
+        <Route exact path="/ThousandTunes/profile"><Profile /></Route>
+        <Route exact path="/ThousandTunes/album/:id" render={ (props) => (<Album { ...props } /> )} />
         <Route exact path="*"><NotFound /></Route>
       </Switch>
     )
