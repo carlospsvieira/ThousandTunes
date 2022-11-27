@@ -1,9 +1,9 @@
 # ThousandTunes Music App (React.js)
 
 ##### Intro:
-This type of client-side music app has become very popular, <br>
-so I wanted to approach it with some adversities I might encounter in a company, <br>
-such as the latest React.js with an earlier router-dom version, class components and fetching from larger APIs.
+Music apps have become very popular, <br>
+so I wanted to approach it with some adversities I might encounter at work, <br>
+such as the latest React.js with an earlier router-dom version and fetching from larger APIs.
 
 
 #### Technologies:
