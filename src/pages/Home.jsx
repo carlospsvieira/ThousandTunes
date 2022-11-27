@@ -8,7 +8,7 @@ export default class Home extends Component {
   state = {
     search: '',
     albums: [],
-    loading: false
+    loading: false,
   }
 
   handleChange = ({ target }) => {

@@ -45,7 +45,7 @@ body {
   transition: 5s;
 }
 
-span {
+.app-title {
   display: flex;
   justify-content: center;
   margin-top: 20rem;
@@ -60,6 +60,8 @@ span {
 .home-container {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .form-home-container > input {
@@ -71,14 +73,260 @@ span {
   padding: 0.5rem;
   box-shadow: 2px 2px 3px rgb(91, 91, 91);
   text-align: center;
+  min-width: 15rem;
 }
 
 .form-home-container > button {
   background-color: rgb(245, 245, 245);
   border: 1px solid white;
   border-left: none;
+  border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
   padding: 0.5rem;
   box-shadow: 2px 2px 3px rgb(91, 91, 91);
+}
+
+/* Header/Navbar */
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
+  font-weight: 500;
+  font-size: small;
+  padding: 0.3rem 0rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navegation > a {
+  cursor: pointer;
+  font-size: small;
+  text-decoration: none;
+  padding: 0.3rem;
+  color: rgb(91, 91, 91);
+  transition: 0.3s;
+}
+
+.signout > a {
+  cursor: pointer;
+  font-size: small;
+  text-decoration: none;
+  padding: 0.3rem;
+  color: rgb(91, 91, 91);
+  transition: 0.3s;
+}
+
+.signout > a:hover {
+  color: rgb(145, 145, 145);
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.main-navegation > a:hover {
+  color: rgb(145, 145, 145);
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+/* Albums list */
+
+.album-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  padding-right: 0rem;
+  gap: 1rem;
+}
+
+.album-container > div > a {
+  color: rgb(91, 91, 91);
+  font-size: small;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0.5rem;
+  border: 1px solid rgb(91, 91, 91);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.album-container > div > a:hover {
+  background-color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+.album-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.album-container > img {
+  width: 100px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.album-container > div > span {
+  color: rgb(38, 38, 38);
+  font-weight: 500;
+}
+
+/* Tracks card */
+
+.tracks-container {
+  padding: 1rem;
+}
+
+.tracks-container > div > img {
+  width: 200px;
+}
+
+.audio-container > span {
+  color: rgb(91, 91, 91);
+  text-align: start;
+  font-weight: 600;
+  font-size: small;
+}
+
+.audio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 0.5rem;
+}
+
+.audio-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.audio-container > div > audio {
+  width: 10rem;
+}
+
+.audio-container > div > button {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+/* Favorite page */
+
+.favorite-headline {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.favorite-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.favorite-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.favorite-container > div > audio {
+  width: 10rem;
+}
+
+/* Profile page */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.profile-container > img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-container > span {
+  text-align: center;
+  font-size: small;
+}
+
+@media only screen and (min-width: 425px) {
+  header {
+    font-size: medium;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-container > button:hover {
+    cursor: pointer;
+  }
+
+  .main-navegation {
+    margin-left: 44.5rem;
+  }
+
+  .main-navegation > a {
+    font-size: medium;
+  }
+
+  .signout > a {
+    font-size: medium;
+  }
+
+  .form-home-container > input {
+    min-width: 25rem;
+  }
+
+  .album-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .album-container > img {
+    width: 200px;
+  }
+
+  .album-container > div {
+    min-width: 15rem;
+  }
+
+  .audio-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .audio-container > span {
+    min-width: 13rem;
+  }
+
+  .favorite-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .favorite-container > div {
+    min-width: 13rem;
+  }
 }

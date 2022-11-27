@@ -39,7 +39,7 @@ export default class Login extends Component {
           <Loading />
         ) : (
           <>
-            <span>ThousandTunes</span>
+            <span className="app-title">ThousandTunes</span>
             <div className="login-container">
               <form
                 className="form-container"

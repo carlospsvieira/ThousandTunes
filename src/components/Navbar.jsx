@@ -5,12 +5,13 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className="main-navegation">
           <Link to="/home">Home</Link>
           <Link to="/favorite">Favorite</Link>
           <Link to="/profile">Profile</Link>
+          <br />
         </div>
-        <div>
+        <div className="signout">
           <Link to="/">Sign out</Link>
         </div>
       </>
