@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/thousandtunes/static/css/main.7b8ff778.css",
-    "main.js": "/thousandtunes/static/js/main.5662e5da.js",
+    "main.css": "/thousandtunes/static/css/main.cd333a87.css",
+    "main.js": "/thousandtunes/static/js/main.0b1a1fb5.js",
     "static/media/imani-bahati-ut67iFuoD2o-unsplash.jpg": "/thousandtunes/static/media/imani-bahati-ut67iFuoD2o-unsplash.10392dc8d087dc479f20.jpg",
     "static/media/profile.png": "/thousandtunes/static/media/profile.222b8d194a651208b9c0.png",
+    "static/media/giphy.gif": "/thousandtunes/static/media/giphy.9432bf2446996e8e7ee5.gif",
     "index.html": "/thousandtunes/index.html",
-    "main.7b8ff778.css.map": "/thousandtunes/static/css/main.7b8ff778.css.map",
-    "main.5662e5da.js.map": "/thousandtunes/static/js/main.5662e5da.js.map"
+    "main.cd333a87.css.map": "/thousandtunes/static/css/main.cd333a87.css.map",
+    "main.0b1a1fb5.js.map": "/thousandtunes/static/js/main.0b1a1fb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b8ff778.css",
-    "static/js/main.5662e5da.js"
+    "static/css/main.cd333a87.css",
+    "static/js/main.0b1a1fb5.js"
   ]
 }
