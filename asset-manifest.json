@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ThousandTunes/static/css/main.c7765696.css",
+    "main.js": "/ThousandTunes/static/js/main.a1a8d555.js",
+    "static/media/imani-bahati-ut67iFuoD2o-unsplash.jpg": "/ThousandTunes/static/media/imani-bahati-ut67iFuoD2o-unsplash.10392dc8d087dc479f20.jpg",
+    "static/media/profile.png": "/ThousandTunes/static/media/profile.222b8d194a651208b9c0.png",
+    "index.html": "/ThousandTunes/index.html",
+    "main.c7765696.css.map": "/ThousandTunes/static/css/main.c7765696.css.map",
+    "main.a1a8d555.js.map": "/ThousandTunes/static/js/main.a1a8d555.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7765696.css",
+    "static/js/main.a1a8d555.js"
+  ]
+}
