@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ThousandTunes/static/css/main.c7765696.css",
-    "main.js": "/ThousandTunes/static/js/main.d0adefa4.js",
+    "main.js": "/ThousandTunes/static/js/main.bb598952.js",
     "static/media/imani-bahati-ut67iFuoD2o-unsplash.jpg": "/ThousandTunes/static/media/imani-bahati-ut67iFuoD2o-unsplash.10392dc8d087dc479f20.jpg",
     "static/media/profile.png": "/ThousandTunes/static/media/profile.222b8d194a651208b9c0.png",
     "index.html": "/ThousandTunes/index.html",
     "main.c7765696.css.map": "/ThousandTunes/static/css/main.c7765696.css.map",
-    "main.d0adefa4.js.map": "/ThousandTunes/static/js/main.d0adefa4.js.map"
+    "main.bb598952.js.map": "/ThousandTunes/static/js/main.bb598952.js.map"
   },
   "entrypoints": [
     "static/css/main.c7765696.css",
-    "static/js/main.d0adefa4.js"
+    "static/js/main.bb598952.js"
   ]
 }
