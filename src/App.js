@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/thousandtunes" render={ (props) => (<Login { ...props } /> )} />
+        <Route exact path="/ThousandTunes" render={ (props) => (<Login { ...props } /> )} />
         <Route exact path="/home"><Home /></Route>
         <Route exact path="/favorite"><Favorite /></Route>
         <Route exact path="/profile"><Profile /></Route>

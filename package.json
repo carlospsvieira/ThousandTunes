@@ -1,7 +1,7 @@
 {
   "name": "thousandtunes",
   "version": "0.1.0",
-  "homepage": "http://carlospsvieira.github.io/thousandtunes",
+  "homepage": "http://carlospsvieira.github.io/ThousandTunes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

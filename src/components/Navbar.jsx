@@ -12,7 +12,7 @@ export default class Navbar extends Component {
           <br />
         </div>
         <div className="signout">
-          <Link to="/thousandtunes">Sign out</Link>
+          <Link to="/ThousandTunes">Sign out</Link>
         </div>
       </>
     )
