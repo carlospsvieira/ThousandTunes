@@ -47,7 +47,7 @@ export default class Home extends Component {
               name="search"
               value={search}
               onChange={this.handleChange}
-              placeholder="Band/Artist"
+              placeholder="Band / Artist / Song"
             />
             <button
               type="submit"
@@ -59,7 +59,9 @@ export default class Home extends Component {
         </div>
         <main>
           {loading ? (
-            <Loading />
+            <div className='loading'>
+              <Loading />
+            </div>
           ) : (
             albums.map(({ data: { name, uri, coverArt: { sources }, date: { year } } }, index) => (
               <AlbumsList

@@ -36,7 +36,9 @@ export default class Login extends Component {
     return (
       <>
         {loading ? (
-          <Loading />
+          <div className='loading-login'>
+            <Loading />
+          </div>
         ) : (
           <>
             <span className="app-title">ThousandTunes</span>

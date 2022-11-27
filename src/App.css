@@ -3,6 +3,28 @@ body {
   background-size: cover;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.loading-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.loading-login > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+
 /* Login Page */
 
 .login-container {
@@ -284,7 +306,7 @@ section {
   }
 
   .main-navegation {
-    margin-left: 44.5rem;
+    margin-left: 53rem;
   }
 
   .main-navegation > a {
