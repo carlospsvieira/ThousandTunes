@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ThousandTunes/static/css/main.c7765696.css",
-    "main.js": "/ThousandTunes/static/js/main.bb598952.js",
-    "static/media/imani-bahati-ut67iFuoD2o-unsplash.jpg": "/ThousandTunes/static/media/imani-bahati-ut67iFuoD2o-unsplash.10392dc8d087dc479f20.jpg",
-    "static/media/profile.png": "/ThousandTunes/static/media/profile.222b8d194a651208b9c0.png",
-    "index.html": "/ThousandTunes/index.html",
-    "main.c7765696.css.map": "/ThousandTunes/static/css/main.c7765696.css.map",
-    "main.bb598952.js.map": "/ThousandTunes/static/js/main.bb598952.js.map"
+    "main.css": "/thousandtunes/static/css/main.7b8ff778.css",
+    "main.js": "/thousandtunes/static/js/main.5662e5da.js",
+    "static/media/imani-bahati-ut67iFuoD2o-unsplash.jpg": "/thousandtunes/static/media/imani-bahati-ut67iFuoD2o-unsplash.10392dc8d087dc479f20.jpg",
+    "static/media/profile.png": "/thousandtunes/static/media/profile.222b8d194a651208b9c0.png",
+    "index.html": "/thousandtunes/index.html",
+    "main.7b8ff778.css.map": "/thousandtunes/static/css/main.7b8ff778.css.map",
+    "main.5662e5da.js.map": "/thousandtunes/static/js/main.5662e5da.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7765696.css",
-    "static/js/main.bb598952.js"
+    "static/css/main.7b8ff778.css",
+    "static/js/main.5662e5da.js"
   ]
 }
